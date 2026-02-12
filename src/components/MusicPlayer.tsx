@@ -18,11 +18,11 @@ export function MusicPlayer() {
   // - Control buttons (play/pause, skip, volume)
   
   return (
-    <div className="w-full max-w-md">
+    <div className="max-w-500 rounded-2xl  bg-black">
       {/* TODO: Implementasikan music player di sini */}
-      <p className="text-center text-gray-500">
-        start first try
-      </p>
+      <h2 className="text-center text-gray-500">
+        Awesome Song Title
+      </h2>
     </div>
   );
 }
